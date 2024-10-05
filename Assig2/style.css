@@ -1,0 +1,62 @@
+body {
+  /*Style the body  */
+  background-color: rgb(30, 21, 23);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgb(229, 203, 177);
+}
+header,
+footer {
+  font-size: 40px;
+  text-align: center; /* Centers the text*/
+  color: #000;
+  margin: 20px; /* Add space outside */
+  padding: 10px; /* Add space inside  */
+  border: 5px solid bisque;
+  border-radius: 25px;
+  background-color: rgb(229, 203, 177);
+  display: block;
+}
+
+.first-paragraph,
+.main-title,
+.dream,
+.project {
+  color: #000;
+  margin: 20px;
+  padding: 10px;
+  border: 10px solid rgb(229, 203, 177);
+  border-radius: 25px;
+  background-color: rgb(229, 203, 177);
+  display: inline-block;
+}
+
+.hobby {
+  /* Style it as a flexbox */
+  margin: 20px;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 15px; /* Adds space between each item */
+  align-items: flex-start;
+  padding: 17px;
+  border: 5px solid rgb(229, 203, 177);
+  border-radius: 25px;
+  background-color: rgb(229, 203, 177);
+  color: #000;
+  width: fit-content;
+}
+.guess {
+  margin: 20px;
+  display: inline-flex;
+  flex-direction: row; /* make it vertical */
+  gap: 15px;
+  align-items: flex-start;
+  padding: 10px;
+  border: 10px solid rgb(229, 203, 177);
+  border-radius: 25px;
+  background-color: rgb(229, 203, 177);
+  color: rgb(30, 21, 23);
+  width: fit-content;
+  font-size: 1rem;
+  cursor: pointer;
+}
