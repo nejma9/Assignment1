@@ -1,0 +1,45 @@
+header {
+  position: fixed;
+  top: 0;
+  background-color: #f0f0f0;
+  padding: 10px;
+  z-index: 3;
+  width: 100%;
+  text-align: center;
+}
+article {
+  background-color: #e0e0e0;
+  width: 60%;
+  margin: 20px auto;
+  padding: 15px;
+  position: absolute;
+  z-index: 1;
+  top: 100px;
+}
+main {
+  position: relative;
+}
+aside {
+  width: 30%;
+  margin: 20px auto;
+  background-color: #d0d0d0;
+  padding: 15px;
+  position: absolute;
+  right: 0;
+  top: 100px;
+  z-index: 2;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  background-color: #c0c0c0;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
+nav {
+  position: sticky;
+  background-color: rgb(205, 180, 229);
+  top: 0;
+  z-index: 4;
+}
